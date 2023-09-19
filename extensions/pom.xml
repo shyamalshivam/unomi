@@ -41,6 +41,7 @@
         <module>web-tracker</module>
         <module>groovy-actions</module>
         <module>json-schema</module>
+        <module>data-operation</module>
     </modules>
 
 </project>

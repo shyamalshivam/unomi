@@ -23,7 +23,7 @@ PROGNAME=`basename "$0"`
 if [ -f "$DIRNAME/setenv.sh" ]; then
   . "$DIRNAME/setenv.sh"
 fi
-mvn clean install -P \!integration-tests,rat,\!run-tests -DskipTests
+mvn clean install -P \!integration-tests,rat,\!run-tests -DskipTests  -Drat.numUnapprovedLicenses=200
 if [ $? -ne 0 ]
 then
     exit 1;

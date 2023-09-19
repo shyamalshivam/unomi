@@ -86,6 +86,7 @@
         <bundle start-level="85" start="false">mvn:org.apache.unomi/unomi-wab/${project.version}</bundle>
         <bundle start-level="85" start="false">mvn:org.apache.unomi/unomi-plugins-base/${project.version}</bundle>
         <bundle start-level="85" start="false">mvn:org.apache.unomi/unomi-plugins-request/${project.version}</bundle>
+        <bundle start-level="85" start="false">mvn:org.apache.unomi/data-operation-actions/${project.version}</bundle>
         <bundle start-level="85" start="false">mvn:org.apache.unomi/unomi-plugins-mail/${project.version}</bundle>
         <bundle start-level="85" start="false">mvn:org.apache.unomi/unomi-plugins-optimization-test/${project.version}</bundle>
         <bundle start-level="85" start="false">mvn:org.apache.unomi/cxs-lists-extension-actions/${project.version}</bundle>
